@@ -4,7 +4,9 @@ An immersive digital art exhibition about synthetic matter, time, and perception
 
 ## Website
 
-The site is prepared for GitHub Pages. Once Pages is enabled for `main` and `/ (root)`, visitors can browse it directly in any modern browser without signing in.
+[Visit the live exhibition](https://ihahakumin606-commits.github.io/morph-archive/).
+
+Hosted on GitHub Pages from `main` and `/ (root)`. Visitors can browse it directly in any modern browser without signing in, installing software, or opening ChatGPT.
 
 ## Run locally
 
