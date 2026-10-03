@@ -1,2 +1,34 @@
-# morph-archive
-MORPH — Archive of Mutable Matter. An immersive digital art exhibition, hosted independently on GitHub Pages.
+# MORPH — Archive of Mutable Matter
+
+An immersive digital art exhibition about synthetic matter, time, and perception.
+
+## Website
+
+The site is prepared for GitHub Pages. Once Pages is enabled for `main` and `/ (root)`, visitors can browse it directly in any modern browser without signing in.
+
+## Run locally
+
+This is a static website with no installation or build step.
+
+```sh
+python -m http.server 4173
+```
+
+Open `http://localhost:4173`.
+
+## Files
+
+- `index.html` — exhibition content and accessible page structure
+- `styles.css` — responsive typography, layout, and motion
+- `app.js` — specimen animation, navigation, loading, and interactions
+- `assets/` — three exhibition images in WebP format
+- `.nojekyll` — serve the static files directly on GitHub Pages
+
+## Experience
+
+- English throughout
+- Responsive desktop, tablet, and mobile layouts
+- Distinct drift, bloom, and absorption motion for the three specimens
+- Keyboard navigation and visible focus states
+- Reduced-motion support and readable content without JavaScript
+

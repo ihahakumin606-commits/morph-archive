@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="MORPH — The Archive of Mutable Matter. An immersive digital art exhibition about synthetic matter, time, and perception.">
+  <title>MORPH — Archive of Mutable Matter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23050505'/%3E%3Cpath d='M15 43V21h7l10 13 10-13h7v22h-8V33l-9 11-9-11v10z' fill='%23d7ff43'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the exhibition</a>
+  <div class="loader" aria-hidden="true">
+    <div class="loader-mark">M</div>
+    <div class="loader-track"><i></i></div>
+    <span class="loader-count">000</span>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+  <div class="cursor" aria-hidden="true"><span>VIEW</span></div>
+
+  <header class="site-header">
+    <a class="brand magnetic" href="#top" aria-label="MORPH home">MORPH<sup>®</sup></a>
+    <div class="header-meta" aria-hidden="true"><span>Digital exhibition</span><span>2026 / 10</span></div>
+    <nav aria-label="Primary navigation">
+      <a class="magnetic" href="#specimen-01">Specimens</a>
+      <a class="magnetic" href="#index">Index</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/membrane.webp" alt="" fetchpriority="high">
+      </div>
+      <div class="hero-wash" aria-hidden="true"></div>
+      <p class="hero-index">Archive № 07<br>Shanghai / Online</p>
+      <h1 id="hero-title"><span>MORPH</span><span class="outline">ARCHIVE</span></h1>
+      <p class="hero-intro">Matter begins to remember.<br>Looking becomes a form of touch.</p>
+      <a class="scroll-cue magnetic" href="#manifesto"><span>Enter the field</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <section id="manifesto" class="manifesto section-dark" aria-labelledby="manifesto-title">
+      <div class="section-no">01—05</div>
+      <div class="manifesto-kicker">Exhibition note</div>
+      <div class="manifesto-body reveal">
+        <h2 id="manifesto-title">WE CALLED MATTER<br>SILENT. ITS CLOCK MOVES<br><span>SLOWER</span> THAN OURS.</h2>
+      </div>
+      <div class="manifesto-note reveal">
+        <p>MORPH gathers three perceptual specimens that could not exist in nature. None holds a fixed shape; every act of looking rearranges it.</p>
+        <p class="mono">Curated by Unit 07<br>Duration: ∞</p>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track"><span>MATTER REMEMBERS · FORM IS A TEMPORARY AGREEMENT · MATTER REMEMBERS · FORM IS A TEMPORARY AGREEMENT · </span><span>MATTER REMEMBERS · FORM IS A TEMPORARY AGREEMENT · MATTER REMEMBERS · FORM IS A TEMPORARY AGREEMENT · </span></div>
+    </div>
+
+    <section id="works" class="works" aria-label="Exhibition specimens">
+      <article id="specimen-01" class="specimen specimen-blue">
+        <div class="specimen-sticky">
+          <figure class="specimen-media reveal-media" data-cursor="DRIFT">
+            <img src="assets/membrane.webp" alt="A translucent cobalt mineral membrane unfolding through a black void" width="1600" height="1000">
+          </figure>
+          <div class="specimen-head">
+            <span class="mono">02—05 / Specimen 01</span>
+            <h2>BLUE MEMORY</h2>
+            <p>MEMBRANE<br>2026</p>
+          </div>
+          <div class="specimen-caption">
+            <span>Medium: Synthetic mineral / Light</span>
+            <span>State: Continuous folding</span>
+          </div>
+        </div>
+      </article>
+
+      <article id="specimen-02" class="specimen specimen-acid">
+        <div class="specimen-sticky">
+          <figure class="specimen-media reveal-media" data-cursor="BLOOM">
+            <img src="assets/bloom.webp" alt="A porous sulfur-yellow formation blooming outward in darkness" width="1600" height="1000" loading="lazy">
+          </figure>
+          <div class="specimen-head">
+            <span class="mono">02—05 / Specimen 02</span>
+            <h2>SULFUR BREATH</h2>
+            <p>BLOOM<br>2026</p>
+          </div>
+          <div class="specimen-caption">
+            <span>Medium: Crystal dust / Membrane</span>
+            <span>State: Irreversible growth</span>
+          </div>
+        </div>
+      </article>
+
+      <article id="specimen-03" class="specimen specimen-void">
+        <div class="specimen-sticky">
+          <figure class="specimen-media reveal-media" data-cursor="ABSORB">
+            <img src="assets/void.webp" alt="A black toroidal structure carrying a cobalt iridescence in darkness" width="1600" height="1000" loading="lazy">
+          </figure>
+          <div class="specimen-head">
+            <span class="mono">02—05 / Specimen 03</span>
+            <h2>DARK WEIGHT</h2>
+            <p>VOID<br>2026</p>
+          </div>
+          <div class="specimen-caption">
+            <span>Medium: Obsidian / Liquid light</span>
+            <span>State: Slow absorption</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="interlude section-dark" aria-label="Exhibition field note">
+      <p class="interlude-mark" aria-hidden="true">≈</p>
+      <blockquote class="reveal">“FORM IS NOT AN OBJECT'S EDGE.<br>IT IS THE TRACE LEFT AFTER<br>MATTER NEGOTIATES WITH <span>TIME</span>.”</blockquote>
+      <p class="mono">03—05 / Field Note № 118<br>Recorded at 03:17</p>
+    </section>
+
+    <section id="index" class="archive section-light" aria-labelledby="archive-title">
+      <header class="archive-header">
+        <p class="mono">04—05 / Complete index</p>
+        <h2 id="archive-title"><span>SPECIMEN</span><span>INDEX</span></h2>
+        <p>Three unstable forms.<br>Select a specimen to return to its field.</p>
+      </header>
+      <div class="archive-list">
+        <a href="#specimen-01" class="archive-row" data-preview="assets/membrane.webp">
+          <span class="mono">001</span><strong>BLUE MEMORY</strong><em>MEMBRANE</em><span class="archive-year">2026</span>
+        </a>
+        <a href="#specimen-02" class="archive-row" data-preview="assets/bloom.webp">
+          <span class="mono">002</span><strong>SULFUR BREATH</strong><em>BLOOM</em><span class="archive-year">2026</span>
+        </a>
+        <a href="#specimen-03" class="archive-row" data-preview="assets/void.webp">
+          <span class="mono">003</span><strong>DARK WEIGHT</strong><em>VOID</em><span class="archive-year">2026</span>
+        </a>
+      </div>
+      <div class="archive-preview" aria-hidden="true"><img src="assets/membrane.webp" alt=""></div>
+    </section>
+
+    <section class="epilogue" aria-labelledby="epilogue-title">
+      <div class="epilogue-orbit" aria-hidden="true"><span>MORPH</span></div>
+      <p class="mono">05—05 / Transmission remains open</p>
+      <h2 id="epilogue-title">WHAT YOU SEE<br>SEES YOU.</h2>
+      <a class="contact" href="#top" aria-label="Restart the field">Restart the field<span aria-hidden="true">Begin again</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top">MORPH<sup>®</sup></a>
+    <p>An original digital exhibition / Shanghai / 2026</p>
+    <button class="to-top magnetic" type="button">Back to top</button>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
